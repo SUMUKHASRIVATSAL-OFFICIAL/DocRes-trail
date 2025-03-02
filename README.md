@@ -24,7 +24,7 @@ This is the official implementation of our paper [DocRes: A Generalist Model Tow
 ```bash
 python inference.py --im_path ./input/for_dewarping.png --task dewarping --save_dtsprompt 1
 ```
-
+ xnbckn 
 - `--im_path`: the path of input document image
 - `--task`: task that need to be executed, it must be one of _dewarping_, _deshadowing_, _appearance_, _deblurring_, _binarization_, or _end2end_
 - `--save_dtsprompt`: whether to save the DTSPrompt
